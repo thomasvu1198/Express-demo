@@ -1,0 +1,889 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar.sticky-top.navbar-expand-md.navbar-light {
+    background-color: #89be50 !important;
+    width: 100%;
+    height: 6vw !important;
+    /* padding: 0%; */
+
+}
+
+#page-banner {
+    position: fixed;
+    width: 100%;
+    height: 5.9vw;
+    /* height: 70px im !important; */
+    background-color: #89be50 !important;
+}
+
+.header.container.fluid {
+    /* max-width: 100%;
+    max-height: 100%; */
+    display: block;
+    background-color: #89be50;
+    font-size-adjust: 0.58 !important;
+}
+
+.banner-logo {
+    height: 6vw;
+    max-width: 100%;
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 10% !important;
+}
+
+.nav-header {
+    /* max-height: 100%;
+    max-width: 100%; */
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    width: 100%;
+    height: 98%;
+    max-width: 100%;
+    max-height: 98%;
+}
+
+.menu.col-sm-1 {
+    width: 16vw;
+    border-style: outset;
+}
+
+.temp.col-sm-2,
+.humid.col-sm-2 {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    width: 13vw;
+    height: 35vw;
+    position: relative;
+    border-style: inset;
+    border-width: 0.0005vw;
+    border-bottom: none;
+    border-radius: 12px;
+    border-color: rgba(224, 224, 224, 0.945);
+}
+
+#temp-label,
+#humid-label,
+#option-header,
+#nutri-header,
+#temp-img {
+    text-align: center !important;
+    display: block;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+
+
+}
+
+#humid-label,
+#temp-label,
+#option-header,
+#nutri-header {
+    border-style: ridge;
+    border-width: 0.2vw;
+    border-color: rgb(187, 194, 174);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+
+#logo-temp,
+#logo-option {
+    display: block;
+    max-width: 12vw;
+    max-height: 15vw;
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    margin-left: 5%;
+
+}
+
+#temp-data {
+    width: 100%;
+}
+
+.option.col-sm-3 {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    width: 29%;
+    height: 40vw;
+    /* border-style: groove; */
+    position: relative;
+    background-color: #f7f3f6;
+    border-style: inset;
+    border-width: 0.0005vw;
+    border-radius: 12px;
+    border-color: rgba(236, 234, 234, 0.945);
+}
+
+.option.header.row,
+.option.image.row,
+.option.btn.row {
+    margin-bottom: 2%;
+    text-align: center !important;
+    display: block;
+    /* height: ; */
+}
+
+.row.option.KV1,
+.row.option.KV2,
+.row.option.KV3,
+.row.option.KV4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#set-temp-btn {
+    width: auto;
+    height: auto;
+    margin-top:2%;
+}
+
+#btn-row {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0%;
+
+}
+
+
+.temp.btn-name,
+.humid.btn-name {
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 4vw;
+    max-height: 1.5vw;
+    width: auto;
+    height: auto;
+}
+
+#option-btn-row {
+    width: 100%;
+    height: 29vw !important;
+    display: block;
+    padding: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.option-btn-name {
+    margin-left: 0px !important;
+    background-color: #2196F3;
+}
+
+.option.image.row {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 3vw;
+    max-height: 7vw;
+    width: auto;
+    height: auto;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #col-ps {
+    margin-left: 0px;
+    width: 40%;
+    height: 50px !important;
+    padding: 0%;
+    margin-right: 20%;
+    background-color:aqua;
+    display: block;
+    border-right:#4e4f52;
+}
+
+#col-ng {
+    margin-right: 0px auto;
+    width: 40%;
+    height: 50px !important;
+    padding: 0%;
+} */
+
+
+/* #btn-ps {
+    width: 100%;
+    height: 4vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+/* #btn-ng {
+    width: 100%;
+    height: 4vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+.option.btn.name {
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: ridge;
+    width: 20vw;
+}
+
+.row.option.row-cols-md-2 {
+    margin-bottom: 40%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#ps-col {
+    width: 49%;
+    height: 100%;
+    border-right: #929292;
+    border-style: solid;
+    border-top: #ffff;
+    border-bottom: #ffff;
+    border-left: #ffff;
+}
+
+#ps-label,
+#ng-label {
+    margin-bottom: 2%;
+}
+
+#ng-col {
+
+    width: 49%;
+    height: 100%;
+    margin-left: 1%;
+}
+
+.row.option.KV1,
+.row.option.KV2,
+.row.option.KV3,
+.row.option.KV4 {
+    margin-bottom: 2%;
+    margin-top: 4%
+}
+
+.col-md.option.btn {
+    padding: 1%;
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+    max-height: 100%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nutri.col-sm-2 {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    width: 20.5vw;
+    height: 20%;
+    position: relative;
+    border-style: inset;
+    border-width: 0.0005vw;
+    border-radius: 12px;
+    border-color: rgba(236, 234, 234, 0.945);
+}
+
+.nutri.header.row {
+    margin-bottom: 15%;
+    text-align: center !important;
+    display: block;
+}
+
+.water.data.row,
+.time.supply.row {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#time-data,
+#nutri-data {
+    display: flex;
+    margin-top: 3%;
+    width: 8vw;
+}
+
+.col-sm.btn {
+    padding: 0px;
+    margin-left: 0vw;
+    width: 0.5vw;
+}
+
+.col-sm.water.data {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-sm.time.data {
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-sm.title {
+    background-color: rgb(75, 235, 75);
+    border-style: bold;
+    font-size: 1vw;
+    margin-right: 1%;
+    max-width: 20vw;
+    max-width: auto;
+    width: auto;
+    height: auto;
+}
+
+.place.title.row {
+    background-color: rgb(75, 235, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.row.nutri.KV1,
+.row.nutri.KV2,
+.row.nutri.KV3,
+.row.nutri.KV4 {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-style: ridge;
+    margin-left: 0.5vw;
+    width: 95%;
+
+}
+
+.nutri.btn.name {
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+    padding: 0%;
+}
+
+.col-md.nutri.btn {
+    padding: 1%;
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kv1-humid-data,
+#kv2-humid-data,
+#kv3-humid-data,
+#kv4-humid-data {
+    width: 4vw;
+    height: 2vw;
+    font-size: 1.1vw;
+
+}
+
+.row.row-cols-sm-2.humid.kv1,
+.row.row-cols-sm-2.humid.kv2,
+.row.row-cols-sm-2.humid.kv3,
+.row.row-cols-sm-2.humid.kv4 {
+    margin-bottom: 2vw;
+    background-color: #f7f7f7;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -0.7vw;
+    border-style: ridge;
+    border-width: 0.2vw;
+    border-radius: 0px;
+    border-color: rgb(205, 207, 200);
+    background-color: #e5e8eb;
+    height: 4vw;
+
+}
+
+.btn.btn-sm.btn-success.btn-simple.btn-humid {
+    margin-top: 0.2vw;
+    width: 4.5vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 2.2vw; */
+    display: flex;
+    align-items: center;
+}
+
+.btn.btn-sm.btn-success.btn-simple.btn-nutri {
+    margin-top: 0.2vw;
+    width: 3vw;
+    height: 2.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.2vw;
+}
+
+.humid.btn-name {
+    font-size: 1vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row.row-cols-sm-1.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @media screen and (max-height: 450px) {
+    #btn-ng  {
+        max-height: 50% !important;
+    }
+
+    #btn-ps{
+        max-height: 50% !important;
+    }
+} */
+/*---------------------------------------- The sidebar menu ----------------------------------------------- */
+
+#Menu-col {
+    max-width: 100px;
+    max-height: 100%;
+}
+
+.row {
+    margin-bottom: 55%;
+}
+
+#SideMenu {
+    width: 100%;
+    height: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 15vw;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #ffffff;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 1px;
+    margin-top: 1vw;
+    margin-bottom: auto;
+    border-radius: 12px;
+    /* text-align: center; */
+    border-style: outset;
+    border-bottom: none;
+}
+
+
+/* The navigation menu links */
+
+.sidenav p {
+    padding: 6px 8px 6px;
+    font-size: 1rem;
+    color: #4e4f52;
+    display: block;
+    font-weight: bold !important;
+    margin-bottom: 30px;
+}
+
+.menu-list {
+    margin-top: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav p {
+    /* border-radius: 12px; */
+    width: 100%;
+}
+
+.sidenav a {
+    font-family: "Raleway", sans-serif;
+}
+
+.sidenav p:hover {
+    color: #5f5a4a;
+    cursor: pointer;
+    background-color: #e2e0d9;
+    text-decoration: none;
+
+
+}
+
+.highlighted {
+    background-color: #1774c0 !important;
+    color: white !important;
+    text-decoration: none;
+}
+
+
+/* Style page content */
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
+
+/* ----------------------------------------------- Menu ----------------------------------*/
+/*------------------------------------ On Off switch----------------------------------*/
+
+
+/* The switch - the box around the slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 4.7vw ;
+    height: 2.5vw;
+}
+
+
+/* Hide default HTML checkbox */
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.95vw;
+    width: 1.98vw;
+    left: 0.3vw;
+    bottom: 0.3vw;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(2vw);
+    -ms-transform: translateX(2vw);
+    transform: translateX(2vw);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/*------------------------------------ On Off switch----------------------------------*/
+
+
+
+
+
+
+/*--------------pump file -----------------------------*/
+#pump-img {
+    display: block;
+    max-width: 200vw;
+    max-height: 40vw;
+    width: auto;
+    height: auto;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+
+/* .control-pump.col-sm-10 {
+    width: 100%;
+    height: 100%;
+    margin-left: 2vw;
+} */
+
+.row.row-cols-sm-3.control-task {
+    margin-left: 2vw;
+    max-width: 100%;
+    min-width: 70%;
+    width: auto;
+}
+
+.row.row-cols-1.img {
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    width: 100%;
+    height: 40%;
+    margin-left: 1vw;
+
+}
+.bg-warning{
+    background-color: rgb(168, 166, 26) !important;
+}
+.row.row-cols-2.pump-btn {
+    margin-bottom: 5%;
+    margin-right: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: ridge;
+    border-width: 0.005vw;
+    border-radius: 12px;
+    border-color: rgb(187, 194, 174);
+}
+
+.row.row-cols-sm-2.kv1,
+.row.row-cols-sm-2.kv2,
+.row.row-cols-sm-2.kv3,
+.row.row-cols-sm-2.kv4 {
+    margin-bottom: 5%;
+    border-style: ridge;
+    border-width: 0.005vw;
+    border-radius: 12px;
+    border-color: rgb(187, 194, 174);
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.option.control.board.col-sm-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6vw;
+}
+
+
+/*-----------------------------------Info Page------------------------------*/
+
+/* .row.row-cols-sm-1.general.environment.info,
+.row.row-cols-sm-1.area.environment.info,
+.row.row-cols-sm-2.phun.suong,
+.row.row-cols-sm-2.nho.giot,
+.row.row-cols-sm-1.pump.status {
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    margin-top: 3%;
+}
+
+.card.general.environment.info {
+    height: 13vw;
+    width: 32vw;
+    margin-bottom: 2%;
+    background-color: #f1f1ed;
+}
+
+.card-body.general.environment.info,
+.card-body.area.environment.info {
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+/* } */
+
+.card-footer.general.environment.info,
+.card-footer.area.environment.info {
+    height: 2.2vw;
+    font-size: 1vw;
+}
+
+.card-header.text-left.general.environment.info,
+.card-header.phun.suong {
+    height: 3.4vw;
+
+}
+
+.enviromental.title.label {
+    width: 15vw;
+    height: 2.1vw !important;
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-style: italic;
+    border-style: outset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdebe6;
+}
+
+.card.area.environment.info {
+    height: 13vw;
+    width: 33vw;
+    margin-bottom: 2%;
+    background-color: #f1f1ed;
+}
+
+.phun.suong.title.label {
+    width: 10vw;
+    height: 2.1vw !important;
+    font-size: 1.2vw;
+    font-weight: bold;
+    font-style: italic;
+    border-style: outset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4de9d;
+}
+
+*/
+
+/*--------------------info page------------------*/
+.nav-item :hover {
+    cursor: pointer;
+}
+h5 {
+    font-weight: bold;
+}
+
+.row.row-cols-sm-3.env {
+    /* height: 10%; */
+    margin-bottom: 0%;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+}
+
+.row.row-cols-sm-4.hmd {
+    margin-bottom: 2%;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+}
+
+.row.row-cols-sm-2.water.and.pump {
+    margin-bottom: 2%;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+}
+
+.card.general-1.environment.info,
+.card.general-2.environment.info,
+.card.general-3.environment.info {
+    margin-left: 1%;
+    margin-bottom: 2%;
+    min-width: 32%;
+    width: auto;
+}
+
+.card.kv1.hmd,
+.card.kv2.hmd,
+.card.kv3.hmd,
+.card.kv4.hmd {
+    margin-bottom: 2%;
+}
+
+/*--------------------auto page--------------------*/
+.row.row-cols-sm-5.set.humid.and.temp.and.type.of.watering
+{
+    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-left:1%
+    /* display: flex;
+    justify-content: center; */
+}
+
+.card.temp.bg-light,
+.card.humidity.bg-light,
+.card.watering.type.nho.giot,
+.card.watering.type.phun.suong {
+    margin-right: 1%;
+    margin-bottom: 10%;
+}
+.card.watering.type.nho.giot,
+.card.watering.type.phun.suong
+{
+    min-width: 18%;
+    width: auto;
+}
+.card.humidity.bg-light
+{
+    min-width: 12%;
+    /* min-width: ; */
+}
